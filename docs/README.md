@@ -1,0 +1,9 @@
+# unVideo: Quickstart 
+
+#### Installing
+1. Download ffmpeg from ffmpeg.org and place it in the pwd of a bash session
+2. pip install -I https://tsu-denim.github.io/unVideo/un_video-1-py3-none-any.whl
+3. run unvideo-ipad to convert for iPad or unvideo-mp3 to make into an mp3
+
+
+
