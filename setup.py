@@ -6,11 +6,17 @@ setup(
     packages=find_packages(),
     package_data={
         '': [
-            '*.py',
-            '*.gz',
-            '*.xsl'
+            '*.py'
         ]
     },
+    install_requires=[
+        'botocore',
+        'boto3',
+        'setuptools',
+        'wheel',
+        'eyed3',
+        'python-magic'
+    ],
     entry_points={
         'console_scripts': ['unvideo-ipad=libs.video_buddy:convert_ipad',
                             'unvideo-mp3=libs.video_buddy:convert_mp3']

@@ -1,8 +1,4 @@
-botocore
-boto3
-requests
-pytest
-twine
 setuptools
 wheel
 eyed3
+python-magic
